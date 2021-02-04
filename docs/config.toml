@@ -1,4 +1,0 @@
-baseURL = "https://nullx002.github.io/"
-languageCode = "en-us"
-title = "hugo bogus"
-publishDir = "docs"
