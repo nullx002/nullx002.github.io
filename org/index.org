@@ -24,11 +24,11 @@ this is my blog where i put things in plain text without much graphic.
 
 ** about nullx002
 
-there is an about page [[/about/][here]].
+there is an about page [[/about][here]].
 
 ** nullx002 blog
 
-a [[/posts/][blog]] to publish things.
+a [[/posts][blog]] to publish things.
 
 ** nopublish                                                 :noexport:crypt:
 -----BEGIN PGP MESSAGE-----

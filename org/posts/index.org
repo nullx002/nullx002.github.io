@@ -20,7 +20,7 @@
 blog entries for blog managed by org-mode
 
 | **blog**        | **date**         |
-| [[welcome.html][welcome to blog]] | [2021-05-24 Mon] |
+| [[./welcome.html][welcome to blog]] | [2021-05-24 Mon] |
 | some blog entry | [2021-05-24 Mon] |
 | another blog    | [2021-05-24 Mon] |
 | one more entry  | [2021-05-24 Mon] |
