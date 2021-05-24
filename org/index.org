@@ -1,0 +1,54 @@
+#+TITLE:        nullx002 on github
+#+DATE:         [2021-05-24 Mon 17:02]
+#+AUTHOR:       nullx002
+#+EMAIL:        nullx002@gmail.com
+#+DESCRIPTION:  index.org file for github
+#+KEYWORDS:     documents, read, notes, books, code, nihon, art, origami, movies, etc.
+#+LANGUAGE:     en
+#+CREATOR:      GNU Emacs 27.1 (build 1, aarch64-unknown-linux-android) of 2021-03-03 (org-mode)
+#+STARTUP:      showall align
+#+TAGS:         { @docs(d) @notes(n) } GOOD(g) MODERATE(m) BAD(b)
+#+EXCLUDE_TAGS: noexport
+#+SELECT_TAGS:  export
+#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg.setup
+#+EXPORT_FILE_NAME: ../docs/index.html
+#+OPTIONS:      H:4 num:nil toc:4
+#+TEXT:         filename: -- main.org --
+#+BEGIN:        clocktable :maxlevel 2 :emphasize nil :scope file
+#+END:          clocktable
+
+
+* welcome to nullx002
+
+this is my blog where i put things in plain text without much graphic.
+
+** about nullx002
+
+there is an about page [[/about/][here]].
+
+** nullx002 blog
+
+a [[/posts/][blog]] to publish things.
+
+** nopublish                                                 :noexport:crypt:
+-----BEGIN PGP MESSAGE-----
+
+hQGMA/HEm8plapKNAQwApb9ZP4B7wneprunYKCBzGe8LLHGfludHzCZZJQ81t59C
+wdplUd0pbgco6GpuWUKNBhdlu0NpciPszwR2pCZpao+tk2QPfsJg1UADmXDUTuBY
+Y6PPV2yBz2lMarQPmbTuhbQvOw5RXFAPJlNcrbRBRZ5W40UXpuM1WUMQTWAY8ZeW
+O9EgXAGMVuMDRuWpZhdi4q5NAwnCvg7TIlYvg1mT7LVV1rHiniHlwGfCjFX/8445
+A5BpXxvejaTlBDKYZyq5mfwmkUZe++jKSZLOY6N5NjBo46Md2yyPW01pJQ3L9Ye5
+C/o6Vc4qXoYFlO00BiyDNmisKu32rgpHgnBvvB8imZvQlFLeIRDpH2zwvbdA6x1Z
+gpruALvPzdAIOXSLItzAB0QuH+LKFbBVaHL69VENN8XxkatnzOzpSnUYHX58vEI1
+sLQAAvnmPc+2By9NxaZoHxEK2vizAlH1zi25lhMdsDfVCWV8LD7Yh6pWblTo4oOo
+SGHZqGhYcGkZJppFkTHx0mYBo1jtJ5f1fcKGl0jvjMoCxPjscK28WMBtSsq1tPtW
+upakMDXVx1sx/2JmzhXxfcFmTiKktPyURYE38+9oRURsFTBUIGh3E7LlxHXk27D9
+hQvAtdIJML6Dzk3ysmM14y5++Ouuvig=
+=Ohod
+-----END PGP MESSAGE-----
+
+** local variables                                                 :noexport:
+
+# Local Variables:
+# eval: (message "welcome to nullx002 blog, get your work done")
+# End:

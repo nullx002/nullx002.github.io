@@ -1,0 +1,50 @@
+#+TITLE:        nullx002 on github
+#+DATE:         [2021-05-24 Mon 18:05]
+#+AUTHOR:       nullx002
+#+EMAIL:        nullx002@gmail.com
+#+DESCRIPTION:  index.org file for github
+#+KEYWORDS:     documents, read, notes, books, code, nihon, art, origami, movies, etc.
+#+LANGUAGE:     en
+#+CREATOR:      GNU Emacs 27.1 (build 1, aarch64-unknown-linux-android) of 2021-03-03 (org-mode)
+#+STARTUP:      showall align
+#+TAGS:         {@docs(d) @notes(n)} GOOD(g) MODERATE(m) BAD(b)
+#+EXCLUDE_TAGS: noexport
+#+SELECT_TAGS:  export
+#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg.setup
+#+EXPORT_FILE_NAME: ../../docs/posts/index.html
+#+OPTIONS:      H:4 num:nil toc:4
+#+TEXT:         filename: -- index.org --
+
+* nullx002 blog
+
+blog entries for blog managed by org-mode
+
+| **blog**        | **date**         |
+| [[welcome.html][welcome to blog]] | [2021-05-24 Mon] |
+| some blog entry | [2021-05-24 Mon] |
+| another blog    | [2021-05-24 Mon] |
+| one more entry  | [2021-05-24 Mon] |
+| last blog entry | [2021-05-24 Mon] |
+
+** no publish                                                :crypt:noexport:
+-----BEGIN PGP MESSAGE-----
+
+hQGMA/HEm8plapKNAQv/TDnRewI/qoJ3ZMiZ0ukoMVvlrmdmVoIuE6UxPVcVQn9F
+AXqBKWppVhOinIIHQrvAnWwk9aV/rMrb2crYqgjUVSWDADLv1IRAHP3mNbR69G/z
+zZjEcHCyodIvW/ZxUVc4fXin3ZKDHr7EQyI/TX2XkUm23eYKrMijm1RNVdt1OZJn
+VfLj+b+AX3M9zBxOKFFFTgvPoP8Yvc5IzP9W430ezyN9hni25zBiyDH9Q8A5aGRa
+kdggXkd2miOZnnyQzNIKDSxP0ziefDcb12ZGy4F5eMou+Z8MQkpafoh4P7oj/K/N
+Ui3wFZzl6w5Pz0cCkE3FUdAt3iuwMdBtr+QgRksMkJpkzN6C9VL0Esh0B++AIuWv
+fxkNikk+lrxcOz+0Ut9UiZg52x2RRbLXV1H9Wnv/ndGMmW1YImEyahOraX/3yMW2
+6ObdHMsHNcJBe3fz+ZbBPBUMZjSEAEm/SlywyhoULCjw5UDLW3XLqdiUlRlWCNa/
+SjJ3d25MSJFYvjTYeXN20nABsU/0dZsvz+4li43YKGETD7Y4/dahM3Pt6ViJLtz6
+BYbAbkMxaFAVniKqA7XU1VmQCHbWnoT8Sjwxh0LpiyABy1GEf3RslB0qzpW7EC4U
+JjXvVpXFKsK+z8p76Tz6emX2iCK50EN+cmZ3/HlSmvyY
+=dsto
+-----END PGP MESSAGE-----
+
+** local variables                                                 :noexport:
+
+# Local Variables:
+# eval: (message "welcome to nullx002 blog, get your work done")
+# End:

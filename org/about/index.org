@@ -1,0 +1,43 @@
+#+TITLE:        nullx002 on github
+#+DATE:         [2021-05-24 Mon 18:04]
+#+AUTHOR:       nullx002
+#+EMAIL:        nullx002@gmail.com
+#+DESCRIPTION:  index.org file for github
+#+KEYWORDS:     documents, read, notes, books, code, nihon, art, origami, movies, etc.
+#+LANGUAGE:     en
+#+CREATOR:      GNU Emacs 27.1 (build 1, aarch64-unknown-linux-android) of 2021-03-03 (org-mode)
+#+STARTUP:      showall align
+#+TAGS:         {@docs(d) @notes(n)} GOOD(g) MODERATE(m) BAD(b)
+#+EXCLUDE_TAGS: noexport
+#+SELECT_TAGS:  export
+#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg.setup
+#+EXPORT_FILE_NAME: ../../docs/about/index.html
+#+OPTIONS:      H:4 num:nil toc:4
+#+TEXT:         filename: -- index.org --
+
+* about nullx002
+
+this is my about page. where i am suppose to write about i am. which is really confusing to i am. how i am going to do that?
+
+** no publish                                                :crypt:noexport:
+-----BEGIN PGP MESSAGE-----
+
+hQGMA/HEm8plapKNAQwAuqkGVOCOkZFDcQg4DDodtAb0Sz7Yj8DTC+djV/BmEXX/
+qj6U0WEBwnsoCzj4Od1Wd9feC65zDWX5xDJErG857mo+DWhjG9I9cX/PUPzTK2zp
+zxNOE3C7R+dq/nJYr6+2yLlHiJLk1hUjGpy69oB0UPUE1Ns5coz58MbheR4DpFlv
+vrbZCGu+gOzf19SH44LXZ4E01r5bcBae7IlX7dQzkIXTZZsm5RJ6Jjg2Rk22ovr2
+QLO8rzK3aPWYl8OmvsUdr2hOShhSLQP4kFtOknf8feNDdhqHq2KRwA6jFNbaZzV4
+CkLBlaOQC7PBhMhxRAG21v8a/4otCcjf+Poa27EK5T8xDnsKu64L5KkfPbJAXXcd
+H6GLx/mzDkJSCNg3QCaCFIkPtWNe6qzEfqyOPXl9WyApzkyaM+awRM1XnUxFB7xo
+dw4jUuEa24w4Zgz9gSbHcDJxG+bKKr3bDIFirLKQJK7MLUwwKRRE5FxXt8DHvLpW
+IwJyV19DEwnHDGf1swKq0l4BooJwAZvWcfPltx1JQFeF5Ln8cIjwVYDEYaaCHdcI
+IPDmeHxCoh7abRsffhU4yN0EHsVwfMgLLAiATrYweIQoaEqGlJ8NwnqH0UtWfGek
+DnXaBors9O1v2W+xo7DM
+=IN/U
+-----END PGP MESSAGE-----
+
+** local variables                                                 :noexport:
+
+# Local Variables:
+# eval: (message "welcome to nullx002 blog, get your work done")
+# End:
