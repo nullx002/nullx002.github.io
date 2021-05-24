@@ -13,7 +13,7 @@
 #+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg.setup
 #+EXPORT_FILE_NAME: ../../docs/about/index.html
 #+OPTIONS:      H:4 num:nil toc:4
-#+TEXT:         filename: -- index.org --
+#+TEXT:         filename: -- about.org --
 
 * about nullx002
 
