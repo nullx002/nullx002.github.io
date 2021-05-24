@@ -166,7 +166,8 @@ dl dd{
 
 @media print{
     .codeblock,pre.src{
-        white-space:pre.src-wrap}
+    white-space:pre.src-wrap;
+    font-family: "Source Code Pro", monospace !important;}
 }
 
 @media print{
@@ -290,7 +291,7 @@ code{
     background:#000111;
     border:solid 1px #e1e4e5;
     /* color:#000;  for clickable code */
-    font-family:"Source Code Pro","Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    font-family: "Source Code Pro", monospace !important;
     font-size:110%;
     max-width:100%;
     overflow-x:auto;
@@ -299,6 +300,7 @@ code{
 }
 
 .codeblock-example{
+    font-family: "Source Code Pro", monospace !important;
     border:1px solid #e1e4e5;
     border-bottom:none;
     padding:24px;
@@ -308,6 +310,7 @@ code{
     position:relative}
 
 .codeblock-example:after{
+    font-family: "Source Code Pro", monospace !important;
     content:"Example";
     position:absolute;
     top:0px;
@@ -318,6 +321,7 @@ code{
 
 .codeblock-example.prettyprint-example-only{
     border:1px solid #e1e4e5;
+    font-family: "Source Code Pro", monospace !important;
     margin-bottom:24px}
 
 .codeblock,pre.src,#content .literal-block{
@@ -1125,7 +1129,7 @@ h2.footnotes{
 }
 
 .timestamp {
-    font-family: "Source Code Pro","Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    font-family: "Source Code Pro", monospace !important;
     font-size: 90%;
     color: navy;
 }
