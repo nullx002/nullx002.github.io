@@ -287,11 +287,11 @@ dl dd{
 }
 
 code{
-    background:#fff;
+    background:#000;
     border:solid 1px #e1e4e5;
     /* color:#000;  for clickable code */
     font-family:"Source Code Pro",Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
-    font-size:75%;
+    font-size:110%;
     max-width:100%;
     overflow-x:auto;
     padding:0 5px;
