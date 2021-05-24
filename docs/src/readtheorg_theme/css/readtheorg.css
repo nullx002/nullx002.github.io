@@ -11,8 +11,8 @@ h1,h2,h3,h4,h5,h6,legend{
 }
 
 h1{
-    font-size:160%;
-    font-weight:140%;
+    font-size:250%;
+    font-weight:normal;
     text-align: left !important;
     margin-bottom: 0.83em !important;
 }
@@ -287,10 +287,10 @@ dl dd{
 }
 
 code{
-    background:#000;
+    background:#000111;
     border:solid 1px #e1e4e5;
     /* color:#000;  for clickable code */
-    font-family:"Source Code Pro",Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    font-family:"Source Code Pro","Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     font-size:110%;
     max-width:100%;
     overflow-x:auto;
@@ -331,7 +331,7 @@ pre.src{
     color:#404040;
     background:#ddd
     display:block
-    font-family:"Source Code Pro",Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    font-family:"Source Code Pro","Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     font-size:12px;
     line-height:1.5;
     margin:1px 0px 24px 0px;
@@ -1124,7 +1124,7 @@ h2.footnotes{
 }
 
 .timestamp {
-    font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    font-family: "Source Code Pro","Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
     font-size: 90%;
     color: navy;
 }
@@ -1142,3 +1142,11 @@ h2.footnotes{
     padding: 9px 12px;
     margin-bottom: 24px;
     font-family:"Major Mono Display","ff-tisa-web-pro","Georgia",Arial,sans-serif}
+
+
+/* CUSTOM CSS BY NULLX002 */
+/* ONLY WHEN NOTHING ELSE WORKED */
+
+.org-src-container {
+    font-family: "Source Code Pro", monospace !important;
+}
