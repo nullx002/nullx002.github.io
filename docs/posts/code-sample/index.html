@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-05-24 Mon 19:39 -->
+<!-- 2021-05-24 Mon 19:57 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>nullx002 on github</title>
@@ -256,31 +256,68 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgb88e14f">code sample from init file</a></li>
+<li><a href="#org2982536">code sample from init file</a>
+<ul>
+<li>
+<ul>
+<li><a href="#orgc508a52">code sample</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-orgb88e14f" class="outline-2">
-<h2 id="orgb88e14f">code sample from init file</h2>
-<div class="outline-text-2" id="text-orgb88e14f">
+<div id="outline-container-org2982536" class="outline-2">
+<h2 id="org2982536">code sample from init file</h2>
+<div class="outline-text-2" id="text-org2982536">
 <p>
 just a simple init.el config to test code export.
 </p>
 
 <div class="org-src-container">
-<pre class="src src-emacs" id="org0089063">    (defun stamp-time ()
-  "Insert string for the current time formatted like '2:34 PM'."
-  (interactive)                 ; permit invocation in minibuffer
-  (insert (format-time-string "%-I:%M %p")))
-  ;;(insert (format-time-string "%D %-I:%M %p")))
+<pre class="src src-elisp" id="orgf295255">(defun stamp-time ()
+    "Insert string for the current time formatted like '2:34 PM'."
+    (interactive)                 ; permit invocation in minibuffer
+    (insert (format-time-string "%-I:%M %p")))
+    ;;(insert (format-time-string "%D %-I:%M %p"))) ;optional code
 
-(defun stamp-date ()
-  "Insert string for today's date nicely formatted in American style,
-e.g. Sunday, September 17, 2000."
-  (interactive)                 ; permit invocation in minibuffer
-  (insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
+    (defun stamp-date ()
+    "Insert string for today's date nicely formatted in American style, e.g. Sunday, September 17, 2000."
+    (interactive) ; permit invocation in minibuffer
+    (insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
 </pre>
+</div>
+</div>
+
+<div id="outline-container-orgc508a52" class="outline-4">
+<h4 id="orgc508a52">code sample</h4>
+<div class="outline-text-4" id="text-orgc508a52">
+<p>
+python
+</p>
+
+<div class="org-src-container">
+<pre class="src src-python" id="org26b839d"># Python program to check if year is a leap year or not
+
+year = 2000
+
+# To get year (integer input) from the user
+# year = int(input("Enter a year: "))
+
+if (year % 4) == 0:
+   if (year % 100) == 0:
+       if (year % 400) == 0:
+           print("{0} is a leap year".format(year))
+       else:
+           print("{0} is not a leap year".format(year))
+   else:
+       print("{0} is a leap year".format(year))
+else:
+   print("{0} is not a leap year".format(year))
+</pre>
+</div>
 </div>
 </div>
 </div>
@@ -288,7 +325,7 @@ e.g. Sunday, September 17, 2000."
 <div id="postamble" class="status">
 <p class="date">Date: 2021-05-24 Mon 19:04</p>
 <p class="author">Author: nullx002</p>
-<p class="date">Created: 2021-05-24 Mon 19:39</p>
+<p class="date">Created: 2021-05-24 Mon 19:57</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

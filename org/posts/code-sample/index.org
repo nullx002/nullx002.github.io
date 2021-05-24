@@ -20,19 +20,44 @@
 just a simple init.el config to test code export.
 
 #+NAME: init sample
-#+BEGIN_SRC emacs lisp
-    (defun stamp-time ()
-  "Insert string for the current time formatted like '2:34 PM'."
-  (interactive)                 ; permit invocation in minibuffer
-  (insert (format-time-string "%-I:%M %p")))
-  ;;(insert (format-time-string "%D %-I:%M %p")))
+#+BEGIN_SRC elisp
+(defun stamp-time ()
+    "Insert string for the current time formatted like '2:34 PM'."
+    (interactive)                 ; permit invocation in minibuffer
+    (insert (format-time-string "%-I:%M %p")))
+    ;;(insert (format-time-string "%D %-I:%M %p"))) ;optional code
 
-(defun stamp-date ()
-  "Insert string for today's date nicely formatted in American style,
-e.g. Sunday, September 17, 2000."
-  (interactive)                 ; permit invocation in minibuffer
-  (insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
+    (defun stamp-date ()
+    "Insert string for today's date nicely formatted in American style, e.g. Sunday, September 17, 2000."
+    (interactive) ; permit invocation in minibuffer
+    (insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
 #+END_SRC
+
+*** code sample
+
+python
+
+#+NAME: python sample
+#+BEGIN_SRC python
+# Python program to check if year is a leap year or not
+
+year = 2000
+
+# To get year (integer input) from the user
+# year = int(input("Enter a year: "))
+
+if (year % 4) == 0:
+   if (year % 100) == 0:
+       if (year % 400) == 0:
+           print("{0} is a leap year".format(year))
+       else:
+           print("{0} is not a leap year".format(year))
+   else:
+       print("{0} is a leap year".format(year))
+else:
+   print("{0} is not a leap year".format(year))
+#+END_SRC
+
 
 ** nopublish                                                 :crypt:noexport:
 -----BEGIN PGP MESSAGE-----
