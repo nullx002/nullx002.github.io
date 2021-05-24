@@ -1,0 +1,55 @@
+#+TITLE:        nullx002 on github
+#+DATE:         [2021-05-24 Mon 18:05]
+#+AUTHOR:       nullx002
+#+EMAIL:        nullx002@gmail.com
+#+DESCRIPTION:  index.org file for github
+#+KEYWORDS:     documents, read, notes, books, code, nihon, art, origami, movies, etc.
+#+LANGUAGE:     en
+#+CREATOR:      GNU Emacs 27.1 (build 1, aarch64-unknown-linux-android) of 2021-03-03 (org-mode)
+#+STARTUP:      showall align
+#+TAGS:         {@docs(d) @notes(n)} GOOD(g) MODERATE(m) BAD(b)
+#+EXCLUDE_TAGS: noexport
+#+SELECT_TAGS:  export
+#+OPTIONS:      H:4 num:nil toc:4
+#+TEXT:         filename: -- welcome.org --
+#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l3.setup
+#+EXPORT_FILE_NAME: ../../../docs/posts/welcome/index.html
+
+* welcome to nullx002 blog
+
+this is my first blog entry. going to write some blogs in plain text here.
+
+** publish using org-mode
+
+publishing using org-mode is great. it helps to organize things really well once you are done with initial setup. great to integrate your `todo lists` with blog.
+
+*** how to?
+
+very easy. needs some basic org-mode knowledge and few repos to publish and export in html with good css.
+
+*** why?
+
+because everything is in plain text much easier to manage and easier to move/transfer over repos between sites. easy to manage and publish too.
+
+** nopublish                                                 :crypt:noexport:
+-----BEGIN PGP MESSAGE-----
+
+hQGMA/HEm8plapKNAQv/fJMqeS60aFSc13O+xe4W7pqWNFRfGZsTfsoIedv7kv9Y
+pcTuOpvZ801Mg2d6Y/Gcqdk3Av2fyXTYJhagyjtByPMXM48h84E43zQ+olVV+UYY
+tV+JSbs0nMUhIsFG0L1GRfWm0xTNMwgClTiZOhqx7eyl8D6RmXXQi9Y3qA85+KQj
+wGC3exMvgdsGI9o2OM/jGGYRIjldsWFu4nc5DutYbpxgSL+Xsup0fS4YMcFKd1iG
+W8SDBDoFgsRMMH+VVeqBhvIWujh2QTNpqreL1bmQnbDjAgFmwXSBDWDGcT3Fi1Np
+lzzlUw0eOtTqzFw+MRGw0Bf5KXmZGwi42EpOAMh0wUpgWeifoXT+PPqA03rDbskX
+1L9b2tOaJGW2z8uN6R1p9of+VnoMEC2m3s8huHP7Fm5/BSpy40Rd7dIVRB1krV7r
+1ZgvmfgEDhp2hyFSZUd71QVbZApG0WYKC74NeCZ4JtfPfn7B0JIk1ljTijjWx8sl
+S0f/dO9E3F3hhh6w6R3T0lYBDR2HKC9FLgmAyNo3sPtocKjWwpsxQKL6WRC9VHm7
+4k/wrk2gq705heJIRI8ZJh8q01lrDuyIdIgjpQeABI4l4ON52xyhiOfSXwt2sqwZ
+HUDfVf4/Mg==
+=U3Aj
+-----END PGP MESSAGE-----
+
+** local variables                                                 :noexport:
+
+# Local Variables:
+# eval: (message "welcome to nullx002 blog, get your work done")
+# End:

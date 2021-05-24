@@ -10,18 +10,18 @@
 #+TAGS:         {@docs(d) @notes(n)} GOOD(g) MODERATE(m) BAD(b)
 #+EXCLUDE_TAGS: noexport
 #+SELECT_TAGS:  export
-#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg.setup
-#+EXPORT_FILE_NAME: ../../docs/posts/index.html
 #+OPTIONS:      H:4 num:nil toc:4
 #+TEXT:         filename: -- index.org --
+#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l2.setup
+#+EXPORT_FILE_NAME: ../../docs/posts/index.html
 
 * nullx002 blog
 
 blog entries for blog managed by org-mode
 
 | **blog**        | **date**         |
-| [[./welcome.html][welcome to blog]] | [2021-05-24 Mon] |
-| some blog entry | [2021-05-24 Mon] |
+| [[./welcome/][welcome to blog]] | [2021-05-24 Mon] |
+| [[./code-sample/][code sample]]     | [2021-05-24 Mon] |
 | another blog    | [2021-05-24 Mon] |
 | one more entry  | [2021-05-24 Mon] |
 | last blog entry | [2021-05-24 Mon] |
@@ -29,18 +29,18 @@ blog entries for blog managed by org-mode
 ** no publish                                                :crypt:noexport:
 -----BEGIN PGP MESSAGE-----
 
-hQGMA/HEm8plapKNAQv/TDnRewI/qoJ3ZMiZ0ukoMVvlrmdmVoIuE6UxPVcVQn9F
-AXqBKWppVhOinIIHQrvAnWwk9aV/rMrb2crYqgjUVSWDADLv1IRAHP3mNbR69G/z
-zZjEcHCyodIvW/ZxUVc4fXin3ZKDHr7EQyI/TX2XkUm23eYKrMijm1RNVdt1OZJn
-VfLj+b+AX3M9zBxOKFFFTgvPoP8Yvc5IzP9W430ezyN9hni25zBiyDH9Q8A5aGRa
-kdggXkd2miOZnnyQzNIKDSxP0ziefDcb12ZGy4F5eMou+Z8MQkpafoh4P7oj/K/N
-Ui3wFZzl6w5Pz0cCkE3FUdAt3iuwMdBtr+QgRksMkJpkzN6C9VL0Esh0B++AIuWv
-fxkNikk+lrxcOz+0Ut9UiZg52x2RRbLXV1H9Wnv/ndGMmW1YImEyahOraX/3yMW2
-6ObdHMsHNcJBe3fz+ZbBPBUMZjSEAEm/SlywyhoULCjw5UDLW3XLqdiUlRlWCNa/
-SjJ3d25MSJFYvjTYeXN20nABsU/0dZsvz+4li43YKGETD7Y4/dahM3Pt6ViJLtz6
-BYbAbkMxaFAVniKqA7XU1VmQCHbWnoT8Sjwxh0LpiyABy1GEf3RslB0qzpW7EC4U
-JjXvVpXFKsK+z8p76Tz6emX2iCK50EN+cmZ3/HlSmvyY
-=dsto
+hQGMA/HEm8plapKNAQv/Q8V/BGN2HZzQfAAkaxJayGNDQ0AY1+SzbzaO9T4dXxD4
+NV8pM6isAfuKSE3m3uEy+XT1Vst2rCpARdwfCHwAEDdYqQjWC0zD2tKIfhmEGW7I
+SNksGWrFhCvvduyhiDA93PmNoGBvrdv5f8pwxENcUvHefEnO5SKjueNwKayPxOUB
+CJDBx/7dJuujYs658e6E52rPOU2JxvlSr+xF7YoZcRTZ8zN/m2kYGNHAeq1FMfXV
+CSVDvnASLG9obslyHFXSg+Qz4ZidrV+4uBM4zwZbYavqZ9Lr+qWfKcLdkO+noW15
+edzW9iCX4gBr2TEJ8JLVPyixX/+Fzbc8MxPsLzP5yBBCpSmjwMxr+nGV1kuCaYBh
+rFKLbvuQr/EbhEKTVbJmD9ZGCkCn8Z2TOB3MFs/lkek0Jb3eFWVmcksE9UHyjd8O
+qzHjRNtPQvAs80xH7crMMrxtKqKLW5ceJkTwL2gR303pl8QceoqekEVQpiHpuZSp
+ix94nZzwfANrLQxiRgy80nkBvrEi1rTN6occugWZEOAA5rGGBTzQf662xsdPscLG
+a+KXNGtZuHwYrJptyDRttuKfokBik+xKQIGYQhaLT13bKxJxeLJy3yZUVohaFbIJ
+fZC63CR02AKjeifSPr+2fDO3ntJRyjMCLzmPuUvBQDo46N0KHGH8Dq20
+=gQsp
 -----END PGP MESSAGE-----
 
 ** local variables                                                 :noexport:

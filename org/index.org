@@ -10,13 +10,10 @@
 #+TAGS:         { @docs(d) @notes(n) } GOOD(g) MODERATE(m) BAD(b)
 #+EXCLUDE_TAGS: noexport
 #+SELECT_TAGS:  export
-#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg.setup
-#+EXPORT_FILE_NAME: ../docs/index.html
 #+OPTIONS:      H:4 num:nil toc:4
 #+TEXT:         filename: -- main.org --
-#+BEGIN:        clocktable :maxlevel 2 :emphasize nil :scope file
-#+END:          clocktable
-
+#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l1.setup
+#+EXPORT_FILE_NAME: ../docs/index.html
 
 * welcome to nullx002
 
@@ -24,11 +21,11 @@ this is my blog where i put things in plain text without much graphic.
 
 ** about nullx002
 
-there is an about page [[./about/index.html][here]].
+there is an about page [[./about/][here]]
 
 ** nullx002 blog
 
-a [[./posts/index.html/][blog]]  to publish things.
+a [[./posts/][blog]]  to publish things.
 
 ** nopublish                                                 :noexport:crypt:
 -----BEGIN PGP MESSAGE-----

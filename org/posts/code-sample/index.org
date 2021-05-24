@@ -1,5 +1,5 @@
 #+TITLE:        nullx002 on github
-#+DATE:         [2021-05-24 Mon 18:05]
+#+DATE:         [2021-05-24 Mon 19:04]
 #+AUTHOR:       nullx002
 #+EMAIL:        nullx002@gmail.com
 #+DESCRIPTION:  index.org file for github
@@ -10,26 +10,29 @@
 #+TAGS:         {@docs(d) @notes(n)} GOOD(g) MODERATE(m) BAD(b)
 #+EXCLUDE_TAGS: noexport
 #+SELECT_TAGS:  export
-#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg.setup
-#+EXPORT_FILE_NAME: ../../docs/posts/welcome.html
 #+OPTIONS:      H:4 num:nil toc:4
 #+TEXT:         filename: -- welcome.org --
+#+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l3.setup
+#+EXPORT_FILE_NAME: ../../../docs/posts/code-sample/index.html
 
-* welcome to nullx002 blog
+* code sample from init file
 
-this is my first blog entry. going to write some blogs in plain text here.
+just a simple init.el config to test code export.
 
-** publish using org-mode
+#+NAME: init sample
+#+BEGIN_SRC emacs lisp
+    (defun stamp-time ()
+  "Insert string for the current time formatted like '2:34 PM'."
+  (interactive)                 ; permit invocation in minibuffer
+  (insert (format-time-string "%-I:%M %p")))
+  ;;(insert (format-time-string "%D %-I:%M %p")))
 
-publishing using org-mode is great. it helps to organize things really well once you are done with initial setup. great to integrate your `todo lists` with blog.
-
-*** how to?
-
-very easy. needs some basic org-mode knowledge and few repos to publish and export in html with good css.
-
-*** why?
-
-because everything is in plain text much easier to manage and easier to move/transfer over repos between sites. easy to manage and publish too.
+(defun stamp-date ()
+  "Insert string for today's date nicely formatted in American style,
+e.g. Sunday, September 17, 2000."
+  (interactive)                 ; permit invocation in minibuffer
+  (insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
+#+END_SRC
 
 ** nopublish                                                 :crypt:noexport:
 -----BEGIN PGP MESSAGE-----
