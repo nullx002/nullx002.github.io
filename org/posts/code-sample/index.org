@@ -21,7 +21,7 @@ just a simple init.el config to test code export.
 
 #+NAME: init sample
 #+BEGIN_SRC elisp
-(defun stamp-time ()
+    (defun stamp-time ()
     "Insert string for the current time formatted like '2:34 PM'."
     (interactive)                 ; permit invocation in minibuffer
     (insert (format-time-string "%-I:%M %p")))
