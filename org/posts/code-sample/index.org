@@ -16,7 +16,7 @@
 #+EXPORT_FILE_NAME: ../../../docs/posts/code-sample/index.html
 
 
-* code sample from init file
+* code samples to check 
 
 few code sample blocks to check output and html export.
 
