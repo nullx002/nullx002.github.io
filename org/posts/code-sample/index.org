@@ -36,10 +36,12 @@ few code sample blocks to check output and html export.
     (insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
 #+END_SRC
 
-#+RESULTS: init sample
+**** results                                                       :noexport:
+
+#+RESULTS: init sample 
 : stamp-date
 
-*** code sample python 2
+*** code sample python
 
 #+NAME: python code
 #+BEGIN_SRC python
@@ -61,6 +63,8 @@ few code sample blocks to check output and html export.
   else:
       print("{0} is not a leap year".format(year))
 #+END_SRC
+
+**** results                                                       :noexport:
 
 #+RESULTS: python sample
 : None
@@ -87,6 +91,8 @@ few code sample blocks to check output and html export.
   fi
 
 #+END_SRC
+
+**** results                                                       :noexport:
 
 #+RESULTS: schell script
 : Enter a number: Number is less than 10.
