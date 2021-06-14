@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-06-14 Mon 20:40 -->
+<!-- 2021-06-14 Mon 20:46 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>nullx002 on github</title>
@@ -232,13 +232,13 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org2eb89d2">code samples to check</a>
+<li><a href="#org31feb67">code samples to check</a>
 <ul>
 <li>
 <ul>
-<li><a href="#org6422a4a">code sample emacs lisp</a></li>
-<li><a href="#org3c36054">code sample python 2</a></li>
-<li><a href="#orgda47542">code sample shell script</a></li>
+<li><a href="#org12215b6">code sample emacs lisp</a></li>
+<li><a href="#orgdb6a6dc">code sample python 2</a></li>
+<li><a href="#org91a3a9f">code sample shell script</a></li>
 </ul>
 </li>
 </ul>
@@ -248,28 +248,28 @@
 </div>
 
 
-<div id="outline-container-org2eb89d2" class="outline-2">
-<h2 id="org2eb89d2">code samples to check</h2>
-<div class="outline-text-2" id="text-org2eb89d2">
+<div id="outline-container-org31feb67" class="outline-2">
+<h2 id="org31feb67">code samples to check</h2>
+<div class="outline-text-2" id="text-org31feb67">
 <p>
 few code sample blocks to check output and html export.
 </p>
 </div>
 
-<div id="outline-container-org6422a4a" class="outline-4">
-<h4 id="org6422a4a">code sample emacs lisp</h4>
-<div class="outline-text-4" id="text-org6422a4a">
+<div id="outline-container-org12215b6" class="outline-4">
+<h4 id="org12215b6">code sample emacs lisp</h4>
+<div class="outline-text-4" id="text-org12215b6">
 <div class="org-src-container">
-<pre class="src src-elisp" id="org57ea3c5">(defun stamp-time ()
-"Insert string for the current time formatted like '2:34 PM'."
-(interactive)                 ; permit invocation in minibuffer
-(insert (format-time-string "%-I:%M %p")))
-;;(insert (format-time-string "%D %-I:%M %p"))) ;optional code
+<pre class="src src-elisp" id="org6cd7f92">(<span style="color: #00ffff;">defun</span> <span style="color: #87cefa;">stamp-time</span> ()
+<span style="color: #ffa07a;">"Insert string for the current time formatted like '2:34 PM'."</span>
+(<span style="color: #00ffff;">interactive</span>)                 <span style="color: #ff7f24;">; </span><span style="color: #ff7f24;">permit invocation in minibuffer</span>
+(insert (format-time-string <span style="color: #ffa07a;">"%-I:%M %p"</span>)))
+<span style="color: #ff7f24;">;;</span><span style="color: #ff7f24;">(insert (format-time-string "%D %-I:%M %p"))) ;optional code</span>
 
-(defun stamp-date ()
-"Insert string for today's date nicely formatted in American style, e.g. Sunday, September 17, 2000."
-(interactive) ; permit invocation in minibuffer
-(insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
+(<span style="color: #00ffff;">defun</span> <span style="color: #87cefa;">stamp-date</span> ()
+<span style="color: #ffa07a;">"Insert string for today's date nicely formatted in American style, e.g. Sunday, September 17, 2000."</span>
+(<span style="color: #00ffff;">interactive</span>) <span style="color: #ff7f24;">; </span><span style="color: #ff7f24;">permit invocation in minibuffer</span>
+(insert (format-time-string <span style="color: #ffa07a;">"%-I:%M %p %A, %B %e, %Y"</span>)))
 </pre>
 </div>
 
@@ -279,27 +279,27 @@ stamp-date
 </div>
 </div>
 
-<div id="outline-container-org3c36054" class="outline-4">
-<h4 id="org3c36054">code sample python 2</h4>
-<div class="outline-text-4" id="text-org3c36054">
+<div id="outline-container-orgdb6a6dc" class="outline-4">
+<h4 id="orgdb6a6dc">code sample python 2</h4>
+<div class="outline-text-4" id="text-orgdb6a6dc">
 <div class="org-src-container">
-<pre class="src src-python" id="org9c30ba5"># Python program to check if year is a leap year or not
+<pre class="src src-python" id="org130658f"><span style="color: #ff7f24;"># </span><span style="color: #ff7f24;">Python program to check if year is a leap year or not</span>
 
-year = 2000
+<span style="color: #eedd82;">year</span> = 2000
 
-# To get year (integer input) from the user
-# year = int(input("Enter a year: "))
+<span style="color: #ff7f24;"># </span><span style="color: #ff7f24;">To get year (integer input) from the user</span>
+<span style="color: #ff7f24;"># </span><span style="color: #ff7f24;">year = int(input("Enter a year: "))</span>
 
-if (year % 4) == 0:
-   if (year % 100) == 0:
-       if (year % 400) == 0:
-           print("{0} is a leap year".format(year))
-       else:
-           print("{0} is not a leap year".format(year))
-   else:
-       print("{0} is a leap year".format(year))
-else:
-   print("{0} is not a leap year".format(year))
+<span style="color: #00ffff;">if</span> (year % 4) == 0:
+<span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">if</span> (year % 100) == 0:
+<span style="background-color: #1a1a1a;"> </span>   <span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">if</span> (year % 400) == 0:
+<span style="background-color: #1a1a1a;"> </span>   <span style="background-color: #1a1a1a;"> </span>   <span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">print</span>(<span style="color: #ffa07a;">"{0} is a leap year"</span>.<span style="color: #b0c4de;">format</span>(year))
+<span style="background-color: #1a1a1a;"> </span>   <span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">else</span>:
+<span style="background-color: #1a1a1a;"> </span>   <span style="background-color: #1a1a1a;"> </span>   <span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">print</span>(<span style="color: #ffa07a;">"{0} is not a leap year"</span>.<span style="color: #b0c4de;">format</span>(year))
+<span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">else</span>:
+<span style="background-color: #1a1a1a;"> </span>   <span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">print</span>(<span style="color: #ffa07a;">"{0} is a leap year"</span>.<span style="color: #b0c4de;">format</span>(year))
+<span style="color: #00ffff;">else</span>:
+<span style="background-color: #1a1a1a;"> </span>  <span style="color: #00ffff;">print</span>(<span style="color: #ffa07a;">"{0} is not a leap year"</span>.<span style="color: #b0c4de;">format</span>(year))
 </pre>
 </div>
 
@@ -310,24 +310,24 @@ None
 </div>
 
 
-<div id="outline-container-orgda47542" class="outline-4">
-<h4 id="orgda47542">code sample shell script</h4>
-<div class="outline-text-4" id="text-orgda47542">
+<div id="outline-container-org91a3a9f" class="outline-4">
+<h4 id="org91a3a9f">code sample shell script</h4>
+<div class="outline-text-4" id="text-org91a3a9f">
 <div class="org-src-container">
-<pre class="src src-shell" id="org34b05ea">#!/bin/bash
+<pre class="src src-shell" id="org9bc4d60"><span style="color: #ff7f24;">#</span><span style="color: #ff7f24;">!/bin/</span><span style="color: #00ffff;">bash</span>
 
-echo -n "Enter a number: "
-read num
+<span style="color: #b0c4de;">echo</span> -n <span style="color: #ffa07a;">"Enter a number: "</span>
+<span style="color: #b0c4de;">read</span> num
 
-if [[ $num -gt 10 ]]
-then
-echo "Number is greater than 10."
-elif [[ $num -eq 10 ]]
-then
-echo "Number is equal to 10."
-else
-echo "Number is less than 10."
-fi
+<span style="color: #00ffff;">if</span> [[ $<span style="color: #eedd82;">num</span> -gt 10 ]]
+<span style="color: #00ffff;">then</span>
+<span style="color: #b0c4de;">echo</span> <span style="color: #ffa07a;">"Number is greater than 10."</span>
+<span style="color: #00ffff;">elif</span> [[ $<span style="color: #eedd82;">num</span> -eq 10 ]]
+<span style="color: #00ffff;">then</span>
+<span style="color: #b0c4de;">echo</span> <span style="color: #ffa07a;">"Number is equal to 10."</span>
+<span style="color: #00ffff;">else</span>
+<span style="color: #b0c4de;">echo</span> <span style="color: #ffa07a;">"Number is less than 10."</span>
+<span style="color: #00ffff;">fi</span>
 </pre>
 </div>
 </div>
@@ -337,7 +337,7 @@ fi
 <div id="postamble" class="status">
 <p class="date">Date: 2021-05-24 Mon 19:04</p>
 <p class="author">Author: nullx002</p>
-<p class="date">Created: 2021-06-14 Mon 20:40</p>
+<p class="date">Created: 2021-06-14 Mon 20:46</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
