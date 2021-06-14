@@ -14,7 +14,6 @@
 #+TEXT:         filename: -- welcome.org --
 #+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l3.setup
 #+EXPORT_FILE_NAME: ../../../docs/posts/code-sample/index.html
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
 
 * code sample from init file
