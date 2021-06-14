@@ -325,7 +325,7 @@ code{
     margin-bottom:24px}
 
 .codeblock,pre.src,#content .literal-block{
-    border:1px solid #fff000;
+    border:1px solid #fffeee;
     font-family: "Source Code Pro", monospace !important;
     padding:12px;
     overflow-x:auto;
@@ -333,7 +333,7 @@ code{
     margin:1px 0 24px 0}
 
 pre.src{
-    color:#fff000;
+    color:#839496;
     background:#ddd
     display:block
     font-family: "Source Code Pro", monospace !important;
