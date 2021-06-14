@@ -38,7 +38,7 @@ few code sample blocks to check output and html export.
 #+RESULTS: init sample
 : stamp-date
 
-*** code sample python
+*** code sample python 2
 
 #+NAME: python code
 #+BEGIN_SRC python
