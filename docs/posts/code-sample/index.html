@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-06-14 Mon 19:08 -->
+<!-- 2021-06-14 Mon 19:19 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>nullx002 on github</title>
@@ -256,11 +256,12 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org140ffdc">code sample from init file</a>
+<li><a href="#org153e8b2">code sample from init file</a>
 <ul>
 <li>
 <ul>
-<li><a href="#orge35f819">code sample</a></li>
+<li><a href="#org406cfc2">code sample</a></li>
+<li><a href="#org49db36a">code sample shell script</a></li>
 </ul>
 </li>
 </ul>
@@ -269,15 +270,15 @@ for the JavaScript code in this tag.
 </div>
 </div>
 
-<div id="outline-container-org140ffdc" class="outline-2">
-<h2 id="org140ffdc">code sample from init file</h2>
-<div class="outline-text-2" id="text-org140ffdc">
+<div id="outline-container-org153e8b2" class="outline-2">
+<h2 id="org153e8b2">code sample from init file</h2>
+<div class="outline-text-2" id="text-org153e8b2">
 <p>
 just a simple init.el config to test code export.
 </p>
 
 <div class="org-src-container">
-<pre class="src src-elisp" id="org227b4bf">(defun stamp-time ()
+<pre class="src src-elisp" id="orgdde219a">(defun stamp-time ()
 "Insert string for the current time formatted like '2:34 PM'."
 (interactive)                 ; permit invocation in minibuffer
 (insert (format-time-string "%-I:%M %p")))
@@ -291,15 +292,15 @@ just a simple init.el config to test code export.
 </div>
 </div>
 
-<div id="outline-container-orge35f819" class="outline-4">
-<h4 id="orge35f819">code sample</h4>
-<div class="outline-text-4" id="text-orge35f819">
+<div id="outline-container-org406cfc2" class="outline-4">
+<h4 id="org406cfc2">code sample</h4>
+<div class="outline-text-4" id="text-org406cfc2">
 <p>
 python
 </p>
 
 <div class="org-src-container">
-<pre class="src src-python" id="org019c485"># Python program to check if year is a leap year or not
+<pre class="src src-python" id="orge8eb910"># Python program to check if year is a leap year or not
 
 year = 2000
 
@@ -320,12 +321,36 @@ else:
 </div>
 </div>
 </div>
+
+
+<div id="outline-container-org49db36a" class="outline-4">
+<h4 id="org49db36a">code sample shell script</h4>
+<div class="outline-text-4" id="text-org49db36a">
+<div class="org-src-container">
+<pre class="src src-shell" id="org962469d">#!/bin/bash
+
+echo -n "Enter a number: "
+read num
+
+if [[ $num -gt 10 ]]
+then
+echo "Number is greater than 10."
+elif [[ $num -eq 10 ]]
+then
+echo "Number is equal to 10."
+else
+echo "Number is less than 10."
+fi
+</pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="date">Date: 2021-05-24 Mon 19:04</p>
 <p class="author">Author: nullx002</p>
-<p class="date">Created: 2021-06-14 Mon 19:08</p>
+<p class="date">Created: 2021-06-14 Mon 19:19</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>

@@ -65,6 +65,30 @@ else:
 : None
 
 
+*** code sample shell script
+
+#+NAME: schell script
+#+BEGIN_SRC shell script
+#!/bin/bash
+
+echo -n "Enter a number: "
+read num
+
+if [[ $num -gt 10 ]]
+then
+echo "Number is greater than 10."
+elif [[ $num -eq 10 ]]
+then
+echo "Number is equal to 10."
+else
+echo "Number is less than 10."
+fi
+#+END_SRC
+
+#+RESULTS: schell script
+: Enter a number: Number is less than 10.
+
+
 ** nopublish                                                 :crypt:noexport:
 -----BEGIN PGP MESSAGE-----
 
