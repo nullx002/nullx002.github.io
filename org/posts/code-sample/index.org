@@ -17,9 +17,11 @@
 
 * code sample from init file
 
-just a simple init.el config to test code export.
+few code sample blocks to check output and html export.
 
-#+NAME: init sample
+*** code sample emacs lisp
+
+#+NAME: emacs lisp
 #+BEGIN_SRC elisp
     (defun stamp-time ()
     "Insert string for the current time formatted like '2:34 PM'."
@@ -36,11 +38,9 @@ just a simple init.el config to test code export.
 #+RESULTS: init sample
 : stamp-date
 
-*** code sample
+*** code sample python
 
-python
-
-#+NAME: python sample
+#+NAME: python code
 #+BEGIN_SRC python
 # Python program to check if year is a leap year or not
 

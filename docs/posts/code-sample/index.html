@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2021-06-14 Mon 19:50 -->
+<!-- 2021-06-14 Mon 19:56 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>nullx002 on github</title>
@@ -232,12 +232,13 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#org15ece7d">code sample from init file</a>
+<li><a href="#org3b4615e">code sample from init file</a>
 <ul>
 <li>
 <ul>
-<li><a href="#orgd714449">code sample</a></li>
-<li><a href="#orga7f4dfb">code sample shell script</a></li>
+<li><a href="#orgcbadb74">code sample emacs lisp</a></li>
+<li><a href="#org636400b">code sample python</a></li>
+<li><a href="#orga73d9bc">code sample shell script</a></li>
 </ul>
 </li>
 </ul>
@@ -246,15 +247,19 @@
 </div>
 </div>
 
-<div id="outline-container-org15ece7d" class="outline-2">
-<h2 id="org15ece7d">code sample from init file</h2>
-<div class="outline-text-2" id="text-org15ece7d">
+<div id="outline-container-org3b4615e" class="outline-2">
+<h2 id="org3b4615e">code sample from init file</h2>
+<div class="outline-text-2" id="text-org3b4615e">
 <p>
-just a simple init.el config to test code export.
+few code sample blocks to check output and html export.
 </p>
+</div>
 
+<div id="outline-container-orgcbadb74" class="outline-4">
+<h4 id="orgcbadb74">code sample emacs lisp</h4>
+<div class="outline-text-4" id="text-orgcbadb74">
 <div class="org-src-container">
-<pre class="src src-elisp" id="org2bcaf6e">(defun stamp-time ()
+<pre class="src src-elisp" id="org06db7aa">(defun stamp-time ()
 "Insert string for the current time formatted like '2:34 PM'."
 (interactive)                 ; permit invocation in minibuffer
 (insert (format-time-string "%-I:%M %p")))
@@ -266,17 +271,18 @@ just a simple init.el config to test code export.
 (insert (format-time-string "%-I:%M %p %A, %B %e, %Y")))
 </pre>
 </div>
+
+<pre class="example">
+stamp-date
+</pre>
+</div>
 </div>
 
-<div id="outline-container-orgd714449" class="outline-4">
-<h4 id="orgd714449">code sample</h4>
-<div class="outline-text-4" id="text-orgd714449">
-<p>
-python
-</p>
-
+<div id="outline-container-org636400b" class="outline-4">
+<h4 id="org636400b">code sample python</h4>
+<div class="outline-text-4" id="text-org636400b">
 <div class="org-src-container">
-<pre class="src src-python" id="org06f053a"># Python program to check if year is a leap year or not
+<pre class="src src-python" id="org5096863"># Python program to check if year is a leap year or not
 
 year = 2000
 
@@ -295,15 +301,19 @@ else:
    print("{0} is not a leap year".format(year))
 </pre>
 </div>
+
+<pre class="example">
+None
+</pre>
 </div>
 </div>
 
 
-<div id="outline-container-orga7f4dfb" class="outline-4">
-<h4 id="orga7f4dfb">code sample shell script</h4>
-<div class="outline-text-4" id="text-orga7f4dfb">
+<div id="outline-container-orga73d9bc" class="outline-4">
+<h4 id="orga73d9bc">code sample shell script</h4>
+<div class="outline-text-4" id="text-orga73d9bc">
 <div class="org-src-container">
-<pre class="src src-shell" id="orgf48937e">#!/bin/bash
+<pre class="src src-shell" id="org7348179">#!/bin/bash
 
 echo -n "Enter a number: "
 read num
@@ -326,7 +336,7 @@ fi
 <div id="postamble" class="status">
 <p class="date">Date: 2021-05-24 Mon 19:04</p>
 <p class="author">Author: nullx002</p>
-<p class="date">Created: 2021-06-14 Mon 19:50</p>
+<p class="date">Created: 2021-06-14 Mon 19:56</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
