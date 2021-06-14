@@ -16,7 +16,7 @@
 #+EXPORT_FILE_NAME: ../../../docs/posts/code-sample/index.html
 
 
-* code samples to check 
+* code samples to check
 
 few code sample blocks to check output and html export.
 
@@ -43,23 +43,23 @@ few code sample blocks to check output and html export.
 
 #+NAME: python code
 #+BEGIN_SRC python
-# Python program to check if year is a leap year or not
+  # Python program to check if year is a leap year or not
 
-year = 2000
+  year = 2000
 
-# To get year (integer input) from the user
-# year = int(input("Enter a year: "))
+  # To get year (integer input) from the user
+  # year = int(input("Enter a year: "))
 
-if (year % 4) == 0:
-   if (year % 100) == 0:
-       if (year % 400) == 0:
-           print("{0} is a leap year".format(year))
-       else:
-           print("{0} is not a leap year".format(year))
-   else:
-       print("{0} is a leap year".format(year))
-else:
-   print("{0} is not a leap year".format(year))
+  if (year % 4) == 0:
+      if (year % 100) == 0:
+          if (year % 400) == 0:
+              print("{0} is a leap year".format(year))
+          else:
+              print("{0} is not a leap year".format(year))
+      else:
+          print("{0} is a leap year".format(year))
+  else:
+      print("{0} is not a leap year".format(year))
 #+END_SRC
 
 #+RESULTS: python sample
@@ -70,20 +70,22 @@ else:
 
 #+NAME: schell script
 #+BEGIN_SRC shell script
-#!/bin/bash
 
-echo -n "Enter a number: "
-read num
+  #!/bin/bash
 
-if [[ $num -gt 10 ]]
-then
-echo "Number is greater than 10."
-elif [[ $num -eq 10 ]]
-then
-echo "Number is equal to 10."
-else
-echo "Number is less than 10."
-fi
+  echo -n "Enter a number: "
+  read num
+
+  if [[ $num -gt 10 ]]
+  then
+  echo "Number is greater than 10."
+  elif [[ $num -eq 10 ]]
+  then
+  echo "Number is equal to 10."
+  else
+  echo "Number is less than 10."
+  fi
+
 #+END_SRC
 
 #+RESULTS: schell script

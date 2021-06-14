@@ -325,15 +325,15 @@ code{
     margin-bottom:24px}
 
 .codeblock,pre.src,#content .literal-block{
-    border:1px solid #e1e4e5;
+    border:1px solid #fff000;
     font-family: "Source Code Pro", monospace !important;
     padding:12px;
     overflow-x:auto;
-    background:#fff;
+    background:#073642;
     margin:1px 0 24px 0}
 
 pre.src{
-    color:#404040;
+    color:#fff000;
     background:#ddd
     display:block
     font-family: "Source Code Pro", monospace !important;
