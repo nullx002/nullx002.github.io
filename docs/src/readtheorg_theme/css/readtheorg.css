@@ -1152,7 +1152,12 @@ h2.footnotes{
 /* CUSTOM CSS BY NULLX002 */
 /* ONLY WHEN NOTHING ELSE WORKED */
 
+org-src-container {
+    font-family: "Source Code Pro", monospace !important;
+    background-color: #002b36 !important;
+}
+
 .org-src-container {
     font-family: "Source Code Pro", monospace !important;
-    background: #002b36 !important;
+    background-color: #002b36 !important;
 }
