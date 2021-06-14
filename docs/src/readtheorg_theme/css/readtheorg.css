@@ -429,11 +429,11 @@ table tr:nth-child(2n) td{
     }
 
     #table-of-contents h2 a {
-        display: block;
+        display: none;
     }
 
     #table-of-contents:target {
-        display: block;
+        display: none;
     }
 
     #copyright, #postamble {
@@ -442,7 +442,7 @@ table tr:nth-child(2n) td{
 
     #toggle-sidebar {
         background-color: #2980B9;
-        display: block;
+        display: none;
         margin-bottom: 1.6em;
         padding: 0.6em;
         text-align: center;
@@ -466,7 +466,7 @@ table tr:nth-child(2n) td{
 
     #table-of-contents .close-sidebar {
        color: rgba(255, 255, 255, 0.3);
-       display: inline-block;
+       display: none;
        margin: 0px 10px 0px 45px;
        padding: 10px;
     }
