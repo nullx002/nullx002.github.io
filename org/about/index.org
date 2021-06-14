@@ -17,7 +17,7 @@
 
 * about nullx002
 
-this is my about page. where i am suppose to write about i am. which is really confusing to i am. how i am going to do that?
+this is my about page. where i am suppose to write about i am. which is really confusing to i am. how i am going to do that? don't know.
 
 ** no publish                                                :crypt:noexport:
 -----BEGIN PGP MESSAGE-----
