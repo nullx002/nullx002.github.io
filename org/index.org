@@ -2,7 +2,7 @@
 #+DATE:         [2021-05-24 Mon 17:02]
 #+AUTHOR:       nullx002
 #+EMAIL:        nullx002@gmail.com
-#+DESCRIPTION:  index.org file for github
+#+DESCRIPTION:  this is the home of nullx002 on github. all information is upated here.
 #+KEYWORDS:     documents, read, notes, books, code, nihon, art, origami, movies, etc.
 #+LANGUAGE:     en
 #+CREATOR:      GNU Emacs 27.1 (build 1, aarch64-unknown-linux-android) of 2021-03-03 (org-mode)
@@ -11,7 +11,8 @@
 #+EXCLUDE_TAGS: noexport
 #+SELECT_TAGS:  export
 #+OPTIONS:      H:4 num:nil toc:4
-#+TEXT:         filename: -- main.org --
+#+TEXT:         filename: -- index.org --
+#+TEXT:         last updated: [2021-06-15 Tue 00:59]
 #+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l1.setup
 #+EXPORT_FILE_NAME: ../docs/index.html
 

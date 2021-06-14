@@ -1,8 +1,8 @@
-#+TITLE:        nullx002 on github
+#+TITLE:        Code Samples Test for HTML export
 #+DATE:         [2021-05-24 Mon 19:04]
 #+AUTHOR:       nullx002
 #+EMAIL:        nullx002@gmail.com
-#+DESCRIPTION:  index.org file for github
+#+DESCRIPTION:  code samples in various languages to test for the org-mode html export to web.
 #+KEYWORDS:     documents, read, notes, books, code, nihon, art, origami, movies, etc.
 #+LANGUAGE:     en
 #+CREATOR:      GNU Emacs 27.1 (build 1, aarch64-unknown-linux-android) of 2021-03-03 (org-mode)
@@ -12,6 +12,7 @@
 #+SELECT_TAGS:  export
 #+OPTIONS:      H:4 num:nil toc:4
 #+TEXT:         filename: -- welcome.org --
+#+TEXT:         last updated: [2021-06-15 Tue 00:53]
 #+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l3.setup
 #+EXPORT_FILE_NAME: ../../../docs/posts/code-sample/index.html
 

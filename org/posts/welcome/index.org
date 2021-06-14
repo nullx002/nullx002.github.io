@@ -1,8 +1,8 @@
-#+TITLE:        nullx002 on github
+#+TITLE:        Welcome to nullx002 blog
 #+DATE:         [2021-05-24 Mon 18:05]
 #+AUTHOR:       nullx002
 #+EMAIL:        nullx002@gmail.com
-#+DESCRIPTION:  index.org file for github
+#+DESCRIPTION:  nullx002 blog on github, site designed in org-mode and exported to html.
 #+KEYWORDS:     documents, read, notes, books, code, nihon, art, origami, movies, etc.
 #+LANGUAGE:     en
 #+CREATOR:      GNU Emacs 27.1 (build 1, aarch64-unknown-linux-android) of 2021-03-03 (org-mode)
@@ -11,7 +11,8 @@
 #+EXCLUDE_TAGS: noexport
 #+SELECT_TAGS:  export
 #+OPTIONS:      H:4 num:nil toc:4
-#+TEXT:         filename: -- welcome.org --
+#+TEXT:         filename: -- index.org --
+#+TEXT:         last updated: [2021-06-15 Tue 00:52]
 #+INCLUDE:      ~/nullx002/nullx002-github/nullx002.github.io/setup/readtheorg-l3.setup
 #+EXPORT_FILE_NAME: ../../../docs/posts/welcome/index.html
 
