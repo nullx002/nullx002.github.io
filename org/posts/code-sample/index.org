@@ -19,7 +19,7 @@
 
 * code samples to check
 
-few code sample blocks to check output and html export.
+few code sample blocks to check output and html export @ stage 0.
 
 *** code sample emacs lisp
 
